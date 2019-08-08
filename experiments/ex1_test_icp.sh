@@ -8,7 +8,8 @@ mkdir -p ${OUTDIR}
 PY3="nice -n 10 python"
 
 # categories for testing
-CMN="-i /home/yasuhiro/work/pointnet/ModelNet40 -c ./sampledata/modelnet40_half1.txt --format wt"
+MODELNET=~/datasets/modelnet/ModelNet40
+CMN="-i $MODELNET -c ./sampledata/modelnet40_half1.txt --format wt"
 
 # NOTICE! before testing, generate perturbations
 # see) 'ex1_genrot.sh'

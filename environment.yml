@@ -1,0 +1,9 @@
+name: pointnetlk
+channels:
+  - defaults
+dependencies:
+  - python==3.6.8
+  - pytorch==1.0.1
+  - torchvision==0.2.1
+prefix: /home/raul/miniconda3/envs/pointnetlk
+
